@@ -1,5 +1,7 @@
 # JAVA BÁSICO 
 
+![imagen de java](https://www.melit.es/wp-content/uploads/2024/01/curso-java-01.jpg)
+
 ## Introducción
 
 Este repositorio está diseñado para aquellos que están comenzando con Java. Aprenderás los conceptos básicos del lenguaje, incluyendo operadores, estructuras de control y arrays.
