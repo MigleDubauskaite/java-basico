@@ -1,0 +1,133 @@
+
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        
+        System.out.println ("Examen B: Programación");
+        System.out.println ("25/10/2024");
+        System.out.println ("======================");
+        System.out.println ();
+        
+        System.out.println ("EJERCICIO 1");
+        System.out.println ("======================");
+        
+        char valorInicial = 'A';
+        char valorFinal = 'Z';
+        int contador = 0;
+        
+        for (int i = valorInicial; i < valorFinal; i++){
+            if (i %10 != 0){
+                contador++;
+            } 
+        }
+        System.out.printf ("Cantidad de letras del alfabeto inglés cuyo valor numérico no es múltiplo de 10 es : %d.%n%n", contador);
+        
+        
+        
+        
+        System.out.println ("EJERCICIO 2");
+        System.out.println ("======================");
+        
+        int[] arrayNumeros_2 = {10, 20, 30, 40, 50};
+        int suma = 0;
+        int producto = 1;
+        
+        for (int i = 0; i < arrayNumeros_2.length; i++){
+            arrayNumeros_2[i] *= 3;
+            contador++;
+            suma += arrayNumeros_2[i];
+        }
+        
+        System.out.printf ("La suma de numeros triples es %d.%n", suma);
+
+        System.out.println();
+        
+        
+        
+        System.out.println ("EJERCICIO 3");
+        System.out.println ("======================");
+         
+         int[] arrayNumeros_3 = {1, -3, 5, -7, 10};
+         int[] arrayMultiplicado = new int[arrayNumeros_3.length];
+         
+         for (int i = 0; i < arrayNumeros_3.length; i++){
+             if (arrayNumeros_3[i] > 0){
+                 arrayMultiplicado[i] = arrayNumeros_3[i] * 20;
+             } else {
+                 arrayMultiplicado[i] = arrayNumeros_3[i] * 10;
+             }
+         }
+         System.out.printf ("El resultado de los números positivos multiplicados por 20 y los numéros negativos por 10 es: ");
+         for (int numMultiplicados: arrayMultiplicado){
+             System.out.printf ("%d ", numMultiplicados);
+         }
+          System.out.print (".");
+         
+         System.out.println();
+         System.out.println();
+         
+         
+         
+         
+        System.out.println ("EJERCICIO 4");
+        System.out.println ("======================");
+        
+        String nombre = "María";
+        
+        byte hora = 5;
+        System.out.printf ("%s %s.%n", hora <= 15 ? "Buenos días" : hora <=22 ? "Buenas tardes" : "Buenas noches", nombre);
+        
+        byte hora2 = 16;
+        System.out.printf ("%s %s.%n", hora2 <= 15 ? "Buenos días" : hora2 <=22 ? "Buenas tardes" : "Buenas noches", nombre);
+        
+        byte hora3 = 23;
+        System.out.printf ("%s %s.%n", hora3 <= 15 ? "Buenos días" : hora3 <=22 ? "Buenas tardes" : "Buenas noches", nombre);
+        
+        
+        System.out.println();
+        
+        
+        
+        System.out.println ("EJERCICIO 5");
+        System.out.println ("======================");
+        
+        int[] arrayNumeros_05 = {3, 5, 7, 2, 8};
+        char valorInicial_05 = '1';
+        char valorFinal_05 = '9';
+        int repetir = 3;
+        
+        for (int i = 0; i < repetir; i++){
+            for (int j = valorInicial_05; j <= valorFinal_05; j++){
+                System.out.printf ("%c", j);
+            }
+            if (i < repetir - 1){
+                System.out.print (" - ");
+            } else {
+                System.out.print (" ");
+            }
+        }
+        
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println ("EJERCICIO 6");
+        System.out.println ("======================");
+        
+        int[] arrayNumeros_06 = {3, 5, 7, 2, 8};
+        int mayorValor = arrayNumeros_06[0];
+        
+        for (int i = 0; i < arrayNumeros_06.length; i++){
+            if (arrayNumeros_06[i] > mayorValor){
+                mayorValor = arrayNumeros_06[i];
+            }
+        }
+        System.out.printf ("El mayor valor de un array dado es %d.%n", mayorValor);
+        
+    }
+}
+Dubauskaite_Migle_P-1.txt
+
+Mostrando Dubauskaite_Migle_P-1.txt.
