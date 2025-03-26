@@ -76,3 +76,14 @@ System.out.println("Primer número: " + numeros[0]);  // 1
 * https://paiza.io/es
 * https://www.w3schools.com/java/
 Agregar info sobre las RAMAS en README.md
+
+***
+### Cambios realizados.  
+
+En este repositorio se han creado diferentes ramas para organizar mejor el desarrollo.  
+
+#### Cambios realizados:  
+- Se ha agregado el archivo de **examen de Java básico** realizado.  
+- Se ha añadido un comentario en este README para recordar incluir información sobre el propósito y efecto de las ramas en el proyecto.  
+
+
