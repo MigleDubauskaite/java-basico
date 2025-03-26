@@ -75,3 +75,5 @@ System.out.println("Primer número: " + numeros[0]);  // 1
 
 * https://paiza.io/es
 * https://www.w3schools.com/java/
+* [PDF java básico](https://uneweb.com/tutoriales/JAVA%20nueva%20en%20pdf.pdf)
+* [Youtube: Pildoras informáticas](https://www.youtube.com/watch?v=U709qY6S9rA&list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
